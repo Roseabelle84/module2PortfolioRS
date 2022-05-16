@@ -2,7 +2,7 @@
 ## Module 2 
 ## Portfolio
 ## 
-*HTML 
-*CSS
+HTML 
+CSS
 
-##made by Roseabelle Shelton
+##made by Roseabelle Shelton##
