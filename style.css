@@ -1,44 +1,16 @@
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1080px) {
     header {
         flex-wrap: center;
-        padding-bottom: 15;
-        padding-top: 5px;
         justify-content: flex end;
         background-color: aquamarine;
     }
 
-    header h1 {
-        width: 5%;
-        text-align: center;
-        flex: 1 100%;
-        justify-content: flex-end;
-        flex-wrap: wrap;
-
-    }
-
-    header h2 {
-
-        width: 100%;
-        text-align: center;
-        justify-content: flex-end;
-        padding: left 50em;
-        margin-bottom: 25em;
-        height: 25em;
-        background-color: pink;
-
-    }
-
-    header nav ul {
+    header nav {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
         align-items: center;
-        list-style: none;
-        background-color: salmon;
-
-
+        justify-content: space-around;
+        background-color: rgb(114, 218, 250);
     }
-
 
     p {
         width: 50em;
@@ -52,42 +24,23 @@
 
     section {
         justify-content: right;
-        flex flex-wrap: width: 50%;
+        flex-wrap: width: 50%;
         text-align: right;
         padding: 20px;
         padding-top: 0px;
-        background-color: green;
-    }
-
-
-    div {
-        background-color: rgb(205, 253, 255);
-        text-align: center;
-        justify-content: end;
-        flex-wrap: wrap;
-
-    }
-
-
-
-    header nav ul li a {
         background-color: aquamarine;
-        font-size: 20px;
-    }
 
 
-    footer {
-        text-align: center;
-        width: 100%;
-        flex-wrap: flex end;
-    }
-}
+        div {
+            background-color: rgb(18, 130, 134);
+            text-align: center;
+            justify-content: end;
+            flex-wrap: wrap;
 
-#section {
-    text-align: center;
-    background-color: rgb(100, 237, 146);
-}
+        }
 
-a {
-    background-color: cyan;
-}
+        footer {
+            text-align: center;
+            width: 100%;
+
+        }
